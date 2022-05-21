@@ -1,5 +1,4 @@
 import React from 'react'
-import footer1 from '../images/footer-logo.png';
 import footer2 from '../images/payment.png';
 
 const Footer = () => {
@@ -13,7 +12,7 @@ const Footer = () => {
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer-about">
                         <div class="footer-logo">
-                            <a href="*"><img src={footer1}  alt='logo'/></a>
+                            <a href="*">MADHANAM INN</a>
                         </div>
                         <p>The Customer is at the heart of our unique bussiness model, which include design.</p>
                         <a href="*"><img src={footer2}  alt='logo'/></a>

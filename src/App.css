@@ -45,13 +45,13 @@ body{
 
 /* Custom CSS */
 .learn-more-btn { 
-    background-color:var(--bg-black);
+    background-color:var(--text-default);
     font-size: 18px; 
     font-weight: 700;
     color: var(--text-white) !important;
     padding: 12px 29px !important;
     border-radius: 10px;
-    border: 2px solid var(--bg-black);
+    border: 2px solid var(--text-default);
     box-shadow: 0 10px 20px rgb(0 0 0 / 10%); 
     display: inline-block;
     text-decoration: none;
@@ -104,14 +104,17 @@ body{
  .logo-text {
     font-size: 22px;
     text-transform: uppercase;
-    color: #11245A !important;
+    color: var(--text-default) !important;
     font-family: var(--secondary-font);
+    font-weight: var(--bold-font-weight);
  }
  .navbar .nav-link {
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
+    font-weight: var(--bold-font-weight);
+    color: var(--text-dark-gray) !important;
  }
  
  .navbar-light .navbar-nav .nav-link.active {
@@ -119,7 +122,7 @@ body{
  }
  
  #home {
-    background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(images/hero_img.jpg);
+    background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(images/slider2.webp);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -129,7 +132,7 @@ body{
  }
  
  #home h1 {
-    font-weight: 700;
+    font-weight: var(--bold-font-weight);
     font-family: var(--secondary-font);
  }
  
@@ -137,6 +140,7 @@ body{
     max-width: 550px;
     margin: 18px auto;
     font-family: var(--secondary-font);
+    font-weight: var(--secondary-font);
  }
  
  
@@ -581,14 +585,17 @@ body{
 
 .footer p{
     font-size: 15px;
-    font-family: "Nunito Sans" , sans-serif ;
+    font-family: var(--text-dark-gray);
     color: #3d3d3d;
     font-weight: 400;
     line-height: 25px;
     margin: 0 0 15px 0;
 }
-.footer img{
-    max-width: 100%;
+.footer-logo a{
+    font-family: var(--primary-font);
+    font-weight: var(--bold-font-weight);
+    font-size: 15px;
+    color: var(--text-default);
 }
 .footer a{
     text-decoration: none;
@@ -620,15 +627,19 @@ a:focus{
 }
 .footer-about p{
     color: #b7b7b7;
+    font-size: 15px;
     margin-bottom: 30px;
+    font-family: var(--primary-font);
+    font-weight: var(--normal-font-weight);
 }
 .footer-widget{
     margin-bottom: 30px;
 }
 .footer-widget h6{
-    color:  #ffffff;
-    font-size: 15px;
-    font-weight: 700;
+    color: var(--text-default);
+    font-size: 14px;
+    font-family: var(--primary-font);
+    font-weight: var(--bold-font-weight);
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
@@ -640,12 +651,17 @@ a:focus{
 .footer-widget ul li a{
     color: #b7b7b7;
     font-size: 15px;
+    font-family: var(--primary-font);
+    font-weight: var(--normal-font-weight);
 }
 .footer-widget ul li a:hover{
     color: #e53637;
 }
 .footer-widget .footer-newslatter p{
     color: #b7b7b7;
+    font-family: var(--primary-font);
+    font-weight: var(--normal-font-weight);
+    font-size: 15px;
 }
 .footer-widget .footer-newslatter form{
     position: relative;
@@ -653,7 +669,9 @@ a:focus{
 .footer-widget .footer-newslatter form input{
     width: 100%;
     font-size: 15px;
-    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: var(--bold-font-weight);
+    color: #b7b7b7;
     background: transparent;
     border: none;
     padding: 15px 0;
