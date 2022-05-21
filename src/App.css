@@ -189,12 +189,14 @@ body{
     float: left;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    overflow: hidden !important;
 }
 
 .service-menu-area ul li a .service-icon:hover{
     background-color: var(--text-default);
     color: #fff;
     box-shadow: 0 .125rem 1.25rem rgb(34 30 31 / 40%);
+    overflow: hidden !important;
 }
 
 .service-menu-area ul li a .service-icon,
@@ -202,6 +204,7 @@ body{
     background-color: var(--text-dark-gray);
     color: #fff;
     box-shadow: 0 .125rem 1.25rem rgb(34 30 31 / 40%);
+    overflow: hidden !important;
 }
 
 .service-menu-area ul li:nth-child(1) {
