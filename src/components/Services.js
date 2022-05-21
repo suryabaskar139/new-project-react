@@ -13,40 +13,40 @@ import icon4 from '../images/services/service-icon4.webp'
 const Services = () => {
   return (
     
-    <section id="services" class="services_wrapper">
+    <section id="services" className="services_wrapper">
         <div className="container">
-            <div class="row">
-                <div class="col-sm-12 section-title text-center mb-5">
+            <div className="row">
+                <div className="col-sm-12 section-title text-center mb-5">
                     <h6>We Are Here For You</h6>
                     <h3>Our Awesome Services</h3>
                 </div>
             </div>
-            <div class="row align-items-center service-item-wrap">
-                <div class="col-lg-7 p-lg-0">
+            <div className="row align-items-center service-item-wrap">
+                <div className="col-lg-7 p-lg-0">
                     
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade active show" id="spa" role="tabpanel">
+                    <div className="tab-content" id="myTabContent">
+                        <div className="tab-pane fade active show" id="spa" role="tabpanel">
                            <img src={service1} alt='logo'/>
                         </div>
-                        <div class="tab-pane fade" id="restaurent" role="tabpanel">
+                        <div className="tab-pane fade" id="restaurent" role="tabpanel">
                            <img src={service2} alt='logo'/>
                         </div>
-                        <div class="tab-pane fade" id="swimming" role="tabpanel">
+                        <div className="tab-pane fade" id="swimming" role="tabpanel">
                            <img src={service3} alt='logo'/>
                         </div>
-                        <div class="tab-pane fade" id="conference" role="tabpanel">
+                        <div className="tab-pane fade" id="conference" role="tabpanel">
                            <img src={service6} alt='logo'/>
                         </div>
                     </div>
                     
                 </div>
-                <div class="col-lg-5 position-relative">
+                <div className="col-lg-5 position-relative">
                     
-                    <div class="service-menu-area">
-                        <ul class="nav">
+                    <div className="service-menu-area">
+                        <ul className="nav">
                             <li>
                                 <a data-bs-toggle="tab" href="*spa">
-                                    <span class="service-icon">
+                                    <span className="service-icon">
                                        <img src={icon1} alt='logo'/>
                                     </span>
                                     <h5>Spa, beauty and Health</h5>
@@ -56,7 +56,7 @@ const Services = () => {
                             </li>
                             <li>
                                 <a data-bs-toggle="tab" href="*restaurent">
-                                    <span class="service-icon">
+                                    <span className="service-icon">
                                        <img src={icon2} alt='logo'/>
                                     </span>
                                     <h5>Restaurant</h5>
@@ -66,7 +66,7 @@ const Services = () => {
                             </li>
                             <li>
                                 <a data-bs-toggle="tab" href="*swimming">
-                                    <span class="service-icon">
+                                    <span className="service-icon">
                                        <img src={icon3} alt='logo'/>
                                     </span>
                                     <h5>Swimming Pool</h5>
@@ -76,7 +76,7 @@ const Services = () => {
                             </li>
                             <li>
                                 <a data-bs-toggle="tab" href="*conference">
-                                    <span class="service-icon">
+                                    <span className="service-icon">
                                         <img src={icon4} alt='logo'/>
                                     </span>
                                     <h5>Conference Hall</h5>

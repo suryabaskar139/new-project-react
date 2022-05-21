@@ -6,7 +6,7 @@ const Pricing = () => {
         <div className='container'>
             <div className='row'>
 
-               <div class="col-sm-12 section-title text-center mb-5">
+               <div className="col-sm-12 section-title text-center mb-5">
                     <h6>We offers </h6>
                     <h3>Our Affordable Pricing</h3>
                 </div>
