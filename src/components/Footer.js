@@ -66,8 +66,8 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-12 text-center">
                     <div className="footer-copyright-text">
-                        <p>Copyright &copy; 2021 All rights reserved | This template is made with <i className="fa fa-heart-o" arial-hidden="true"></i>
-                             by <a href="*">CodingWithNick</a></p>
+                        <p>Copyright - 2021 All rights reserved | This template is made with <i className="fa fa-heart-o" arial-hidden="true"></i>
+                             by <a href="*">SuryaBaskar</a></p>
                     </div>
                 </div>
             </div>
