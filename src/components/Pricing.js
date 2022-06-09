@@ -21,11 +21,11 @@ const Pricing = () => {
                         </div>
                         <div className='feature-area'>
                             <ul>
-                                <li>50GB storage</li>
-                                <li>5 Users</li>
-                                <li>20 Databases</li>
-                                <li>50 form submission</li>
-                                <li>Safe and Secure</li>
+                                <li>Free Wifi</li>
+                                <li>Complementary food</li>
+                                <li>Massage</li>
+                                <li>Saloon and Spa</li>
+                                <li>Pre-booking System</li>
                             </ul>
                         </div>
                         <div className='btn-area'>
@@ -47,11 +47,11 @@ const Pricing = () => {
                         </div>
                         <div className='feature-area'>
                             <ul>
-                                <li>50GB storage</li>
-                                <li>5 Users</li>
-                                <li>20 Databases</li>
-                                <li>50 form submission</li>
-                                <li>Safe and Secure</li>
+                                <li>Free Wifi</li>
+                                <li>Complementary food</li>
+                                <li>Massage</li>
+                                <li>Saloon and Spa</li>
+                                <li>Pre-booking System</li>
                             </ul>
                         </div>
                         <div className='btn-area'>
@@ -73,11 +73,11 @@ const Pricing = () => {
                         </div>
                         <div className='feature-area'>
                             <ul>
-                                <li>50GB storage</li>
-                                <li>5 Users</li>
-                                <li>20 Databases</li>
-                                <li>50 form submission</li>
-                                <li>Safe and Secure</li>
+                                <li>Free Wifi</li>
+                                <li>Complementary food</li>
+                                <li>Massage</li>
+                                <li>Saloon and Spa</li>
+                                <li>Pre-booking System</li>
                             </ul>
                         </div>
                         <div className='btn-area'>

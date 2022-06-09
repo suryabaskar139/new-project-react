@@ -7,8 +7,8 @@ const Header = () => {
     <div className="container text-center">
        <div className="row justify-content-center">
           <div className="col-md-10">
-             <h1 className="text-white display-4">WE ARE CREATIVE AGENCY, CREATIVE PEOPLE</h1>
-             <p className="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-les</p>
+             <h1 className="text-white display-5">FIND YOUR NEXT STAY, PLAN YOUR TRIP</h1>
+             <p className="text-white">With Madhanam you can easily find your ideal hotel and compare prices from different websites. Simply enter where you want to go and your desired travel dates, and let our hotel search engine compare accommodation prices for you</p>
              <a href="#contact" className="learn-more-btn">LOG IN</a>
              <a href="#contact" className="mx-2 learn-more-btn">SIGN UP</a>
           </div>

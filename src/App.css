@@ -658,7 +658,7 @@ a:focus{
     font-weight: var(--normal-font-weight);
 }
 .footer-widget ul li a:hover{
-    color: #e53637;
+    color: var(--text-default);
 }
 .footer-widget .footer-newslatter p{
     color: #b7b7b7;
@@ -703,10 +703,12 @@ a:focus{
     margin-bottom: 0;
 }
 .footer-copyright-text p i{
-    color: #e53637;
+    color: var(--text-default);
+    font-family: var(--primary-font);
 }
 .footer-copyright-text p a{
-    color: #e53637;
+    color: var(--text-default);
+    font-family: var(--primary-font);
 }
 
 
