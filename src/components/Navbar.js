@@ -32,20 +32,15 @@ export default class Navbar extends Component {
              <a className="nav-link" href="#services">Services</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="#portfolio">Portfolio</a>
+             <a className="nav-link" href="#rooms">Rooms</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="#features">Features</a>
+             <a className="nav-link" href="#pricing">Pricing</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="#team">Team</a>
+             <a className="nav-link" href="#footer">Contact</a>
            </li>
-           <li className="nav-item">
-             <a className="nav-link" href="#testimonials">Testimonials</a>
-           </li>
-           <li className="nav-item">
-             <a className="nav-link" href="#contact">Contact</a>
-           </li>
+          
         </ul>
       </div>
     </div>

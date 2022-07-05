@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div className='pricing-area'>
+    <div className='pricing-area' id='pricing'>
         <div className='container'>
             <div className='row'>
 

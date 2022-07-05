@@ -9,7 +9,7 @@ import gallery6 from '../images/gallery/6.webp'
 const Rooms = () => {
   return (
 
-    <section id="gallery" className="gallery_wrapper">
+    <section id="rooms" className="gallery_wrapper">
         <div className="container">
             <div className="row">
                 <div className="col-sm-12 section-title text-center mb-5">
